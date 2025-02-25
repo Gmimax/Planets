@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Earth Page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Planets</title>
+</head>
+<body>
     <div class="container">
-      <nav class="head">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-      <div class="hero">
-        <div class="background">
-          <img class="planet" src="planet.png" alt="Earth" />
-        </div>
-        <div class="content">
-          <h1>EARTH</h1>
-          <p>
-            This is a place for all space lovers where everyone will find a
-            hundred things for themselves
-          </p>
-          <button>Start Now</button>
-        </div>
-      </div>
+        <main>
+            <header id="header">
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </header>
+            <div class="hero">
+                <div class="side-bar">
+                    <div class="active">
+                        <div class="colo active_colo"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="colo"></div>
+                    <div class="colo"></div>
+                    <div class="colo"></div>
+                    <div class="colo"></div>
+                </div>
+                <section class="Earth">
+                        <h1>EARTH</h1>
+                        <p>This is a place for all space lovers where everyone will find a hundred things for themselves</p>
+                        <input type="button" value="Start Now">
+                </section>
+            </div>
+        </main>
+        <section class="info">
+            <article>
+                <h2>80</h2>
+                <p>Satisfied clients</p>
+            </article>
+            <hr>
+            <article>
+                <h2>200</h2>
+                <p>Posts completed</p>
+            </article>
+            <hr>
+            <article>
+                <h2>99</h2>
+                <p>Reviews given</p>
+            </article>
+        </section>
+        <section class="about-us">
+            <div class="text">
+                <h2>Our Team</h2>
+                <p style="width: 746px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, impedit nostrum eum neque error adipisci expedita? Ipsum ullam dolore voluptatem nam numquam alias mollitia. Adipisci ipsum libero perferendis omnis assumenda.</p>
+                <img src="images/group.jpg" alt="" width="569 height="380" style="border-radius: 20px;">
+            </div>
+            <div class="asteroids">
+                <img src="images/mars.png" alt="" width="480" height="480">
+            </div>
+        </section>
     </div>
-  </body>
+</body>
 </html>
